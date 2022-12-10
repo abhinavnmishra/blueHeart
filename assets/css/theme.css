@@ -7888,6 +7888,8 @@ fieldset:disabled .btn {
 }
 .text-uppercase {
     text-transform: uppercase !important;
+    font-size: 25px;
+    font-family: sans-serif;
 }
 .text-capitalize {
     text-transform: capitalize !important;
