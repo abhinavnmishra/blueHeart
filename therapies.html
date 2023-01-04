@@ -14,33 +14,100 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: #5837D0">
-        <div class="container">
-            <a class="navbar-brand w-8" href="#" data-config-id="brand">
-                <span class="text-white text-uppercase" >BLUE HEART</span>
-            </a>
+<nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: #5837D0">
+    <div class="container">
+        <a class="navbar-brand w-8" href="index.html" data-config-id="brand" style="margin: -12px;">
+            <img src="assets/images/nav_logo.png" style="height: 75px; width: 270px;  border: 2px solid white;">
+        </a>
 
-            <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon mt-2">
                     <span class="navbar-toggler-bar bar1"></span>
                     <span class="navbar-toggler-bar bar2"></span>
                     <span class="navbar-toggler-bar bar3"></span>
                 </span>
-            </button>
-            <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
-                <ul class="navbar-nav navbar-nav-hover ms-auto">
-                  <li class="nav-item mx-2">
-                      <a href="index.html" class="nav-link ps-2 cursor-pointer">
-                          Home
-                      </a>
-                  </li>
-                    <li class="nav-item mx-2">
-                        <a href="aboutMe.html" class="nav-link ps-2 cursor-pointer">About Me</a>
-                    </li>
-                </ul>
-            </div>
+        </button>
+
+        <div style="padding-right: 40px" class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
+            <ul class="navbar-nav navbar-nav-hover ms-auto">
+                <li class="nav-item mx-2">
+                    <a href="index.html" class="nav-link ps-2 cursor-pointer">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                    <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false" role="button">
+                        Services
+                        &emsp;&ensp;<i class="collapse-close fas fa-chevron-down text-xs pt-1 position-absolute end-0 me-3" aria-hidden="true"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg" aria-labelledby="dropdownMenuDocs">
+                        <div class="d-none d-lg-block">
+                            <ul class="list-group">
+
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="therapies.html">
+                                        <div class="d-flex">
+                                            <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Therapies</h6>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="corporate-services.html">
+                                        <div class="d-flex">
+                                            <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Corporate Services</h6>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="supportGroups.html">
+                                        <div class="d-flex">
+                                            <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Support Groups</h6>
+                                        </div>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="row d-lg-none">
+                            <div class="col-md-12 g-0">
+
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="therapies.html">
+                                    <div class="d-flex">
+                                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Therapies</h6>
+                                    </div>
+                                </a>
+
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="corporate-services.html">
+                                    <div class="d-flex">
+                                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Corporate Services</h6>
+                                    </div>
+                                </a>
+
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="supportGroups.html">
+                                    <div class="d-flex">
+                                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Support Groups</h6>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item mx-2">
+                    <a href="aboutMe.html" class="nav-link ps-2 cursor-pointer">About Me</a>
+                </li>
+
+                <li class="nav-item mx-2">
+                    <a href="index.html#contact" class="nav-link ps-2 cursor-pointer">Contact Us</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <header class="mb-0 position-relative" style="padding: 50px">
         <span class="mask opacity-10" style="background-color: #5DA7DB"></span>
@@ -456,7 +523,7 @@
                             <i class="fas fa-check text-success text-sm" aria-hidden="true"></i>
                         </div>
                         <div class="description ps-2">
-                            <h5>Fill the form provided on the home page</h5>
+                            <h5>Fill the form provided on the home page. <a href="index.html#contact" style="color: #2152ff" target="_blank">Click here</a> to view the form</h5>
                         </div>
                     </div>
 

@@ -16,8 +16,8 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: #5837D0">
         <div class="container">
-            <a class="navbar-brand w-8" href="#" data-config-id="brand">
-                <span class="text-white text-uppercase" >BLUE HEART</span>
+            <a class="navbar-brand w-8" href="index.html" data-config-id="brand" style="margin: -12px;">
+                <img src="assets/images/nav_logo.png" style="height: 75px; width: 270px;  border: 2px solid white;">
             </a>
 
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,15 +27,82 @@
                     <span class="navbar-toggler-bar bar3"></span>
                 </span>
             </button>
-            <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
+
+            <div style="padding-right: 40px" class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
                 <ul class="navbar-nav navbar-nav-hover ms-auto">
                     <li class="nav-item mx-2">
                         <a href="index.html" class="nav-link ps-2 cursor-pointer">
                             Home
                         </a>
                     </li>
+
+                    <li class="nav-item dropdown dropdown-hover mx-2">
+                        <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false" role="button">
+                            Services
+                            &emsp;&ensp;<i class="collapse-close fas fa-chevron-down text-xs pt-1 position-absolute end-0 me-3" aria-hidden="true"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg" aria-labelledby="dropdownMenuDocs">
+                            <div class="d-none d-lg-block">
+                                <ul class="list-group">
+
+                                    <li class="nav-item list-group-item border-0 p-0">
+                                        <a class="dropdown-item py-2 ps-3 border-radius-md" href="therapies.html">
+                                            <div class="d-flex">
+                                                <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Therapies</h6>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item list-group-item border-0 p-0">
+                                        <a class="dropdown-item py-2 ps-3 border-radius-md" href="corporate-services.html">
+                                            <div class="d-flex">
+                                                <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Corporate Services</h6>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item list-group-item border-0 p-0">
+                                        <a class="dropdown-item py-2 ps-3 border-radius-md" href="supportGroups.html">
+                                            <div class="d-flex">
+                                                <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Support Groups</h6>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="row d-lg-none">
+                                <div class="col-md-12 g-0">
+
+                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="therapies.html">
+                                        <div class="d-flex">
+                                            <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Therapies</h6>
+                                        </div>
+                                    </a>
+
+                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="corporate-services.html">
+                                        <div class="d-flex">
+                                            <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Corporate Services</h6>
+                                        </div>
+                                    </a>
+
+                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="supportGroups.html">
+                                        <div class="d-flex">
+                                            <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Support Groups</h6>
+                                        </div>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
                     <li class="nav-item mx-2">
                         <a href="aboutMe.html" class="nav-link ps-2 cursor-pointer">About Me</a>
+                    </li>
+
+                    <li class="nav-item mx-2">
+                        <a href="index.html#contact" class="nav-link ps-2 cursor-pointer">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -46,7 +113,7 @@
         <span class="mask opacity-10" style="background-color: #5DA7DB"></span>
         <div class="page-header min-vh-75 position-relative">
             <div class="position-absolute top-0 end-0 w-40 h-100 d-md-block d-none">
-                <div class="bg-cover position-absolute fixed-top end-0 ms-auto w-100 h-100 z-index-0" style="background-image:url(assets/images/blueHearts.png); background-position: center;"></div>
+                <div class="bg-cover position-absolute fixed-top end-0 ms-auto w-100 h-100 z-index-0" style="background-image:url(assets/images/blueHearts.png); background-position: center; border: 5px solid white;"></div>
 
             </div>
             <div class="container">
@@ -56,13 +123,72 @@
                         <h1 style="font-size: 75px" class="display-1 font-weight-bolder w-md-70 text-white text-capitalize mb-0">Blue Hearts</h1>
                         <br>
                         <h2 style="font-size: 60px" class="display-1 font-weight-bolder w-md-70 text-white text-capitalize mb-4 mt-n3">Wellness</h2>
-                        <h5 class="w-md-70 text-white font-weight-bolder ps-1">About Us</h5>
-                        <p align="justify" class="text-sm text-white ps-1 w-md-70">People who seek therapy often feel blue. We reach out when our emotions become overwhelming. We may feel helpless, confused, and worthless while being stuck in a myriad of emotions. But reaching out or being in this state does not make you weak. It takes a lot of strength to be able to hold space for so many emotions and go through life. You have a strong and brave heart that is feeling blue today. We invite you to sit with us and spend time with every shade of blue that comes up. We invite you on a journey where you get to know your blue heart.</p>
+<!--                        <h5 class="w-md-70 text-white font-weight-bolder ps-1">About Us</h5>-->
+                        <h5 align="justify" class="font-weight-bolder text-sm text-white ps-1 w-md-70">People who seek therapy often feel blue. We reach out when our emotions become overwhelming. We may feel helpless, confused, and worthless while being stuck in a myriad of emotions. But reaching out or being in this state does not make you weak. It takes a lot of strength to be able to hold space for so many emotions and go through life. You have a strong and brave heart that is feeling blue today. We invite you to sit with us and spend time with every shade of blue that comes up. We invite you on a journey where you get to know your blue heart.</h5>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+
+
+    <div style="padding: 50px">
+        <section class="py-0">
+            <div class="row">
+                <div class="col-6 text-center mx-auto mt-5 mb-4">
+                    <h2 spellcheck="false">Our Expertise</h2>
+                    <p>See what services we have to offer:
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mb-lg-0 mb-4">
+                        <div class="card card-plain">
+                            <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
+                                <a href="therapies.html" class="d-block">
+                                    <img src="assets/images/therapies.jpg" class="img-fluid border-radius-lg card-img-index">
+                                </a>
+                            </div>
+                            <div class="card-body pt-3">
+                                <a href="therapies.html" class="card-title h6 icon-move-right d-block text-darker font-weight-bolder">Therapies<i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-lg-0 mb-4">
+                        <div class="card card-plain">
+                            <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
+                                <a href="corporate-services.html" class="d-block">
+                                    <img src="assets/images/workSho.jpeg" class="img-fluid border-radius-lg card-img-index">
+                                </a>
+                            </div>
+                            <div class="card-body pt-3">
+                                <a href="corporate-services.html" class="card-title h6 icon-move-right d-block text-darker font-weight-bolder">Corporate Services<i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-lg-0 mb-4">
+                        <div class="card card-plain">
+                            <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
+                                <a href="javascript:;" class="d-block">
+                                    <img src="assets/images/supportGrou.jpeg" class="img-fluid border-radius-lg card-img-index">
+                                </a>
+                            </div>
+                            <div class="card-body pt-3">
+                                <a href="supportGroups.html" class="card-title h6 icon-move-right d-block text-darker font-weight-bolder">Support Groups<i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
 
     <div style="padding: 5px">
         <section class="py-4">
@@ -87,7 +213,7 @@
                                 </div>
                             </div>
                             <div class="position-absolute top-0 end-0 w-50 h-100 d-md-block d-none">
-                                <div class="bg-cover position-absolute fixed-top end-0 ms-auto w-100 h-100 z-index-0" style="background-image:url(assets/images/landing1.png); background-position: center;"></div>
+                                <div class="bg-cover position-absolute fixed-top end-0 ms-auto w-90 h-100 z-index-0" style="background-image:url(assets/images/IMG_2284.jpg); background-position: center; border: 30px solid #5DA7DB;"></div>
 
                             </div>
                         </div>
@@ -97,88 +223,7 @@
         </section>
     </div>
 
-    <div style="padding: 50px">
-      <section class="py-0">
-          <div class="row">
-              <div class="col-6 text-center mx-auto mt-5 mb-4">
-                  <h2 spellcheck="false">Our Expertise</h2>
-                  <p>See what services we have to offer:
-                  </p>
-              </div>
-          </div>
-      </section>
-      <section class="pb-5">
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-4 mb-lg-0 mb-4">
-                      <div class="card card-plain">
-                          <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
-                              <a href="therapies.html" class="d-block">
-                                  <img src="assets/images/therapies.jpg" class="img-fluid border-radius-lg card-img-index">
-                              </a>
-                          </div>
-                          <div class="card-body pt-3">
-                              <a href="therapies.html" class="card-title h6 icon-move-right d-block text-darker font-weight-bolder">Therapies<i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-4 mb-lg-0 mb-4">
-                      <div class="card card-plain">
-                          <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
-                              <a href="workshops.html" class="d-block">
-                                  <img src="assets/images/workSho.jpeg" class="img-fluid border-radius-lg card-img-index">
-                              </a>
-                          </div>
-                          <div class="card-body pt-3">
-                              <a href="workshops.html" class="card-title h6 icon-move-right d-block text-darker font-weight-bolder">Corporate Services<i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-4 mb-lg-0 mb-4">
-                      <div class="card card-plain">
-                          <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
-                              <a href="javascript:;" class="d-block">
-                                  <img src="assets/images/supportGrou.jpeg" class="img-fluid border-radius-lg card-img-index">
-                              </a>
-                          </div>
-                          <div class="card-body pt-3">
-                              <a href="supportGroups.html" class="card-title h6 icon-move-right d-block text-darker font-weight-bolder">Support Groups<i class="fas fa-arrow-right text-sm ms-1" aria-hidden="true"></i>
-                              </a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-    </div>
 
-
-    <!-- <section class="py-13 bg-gradient-dark">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-4 col-md-4">
-                    <div class="info">
-                        <h3 class="mt-2 text-white" spellcheck="false">200+ </h3>
-                        <p class="text-white">Seminars taken</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="info">
-                        <h3 class="mt-2 text-white">8 + </h3>
-                        <p class="text-white">Years of experience</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="info">
-                        <h3 class="mt-2 text-white">99% </h3>
-                        <p class="text-white">Happy Clients</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
     <div style="padding: 35px">
       <section class="pt-3 pb-5" style="background-color: #5DA7DB ">
           <div class="container">
@@ -295,7 +340,7 @@
 
         </div>
     </div> -->
-    <div style="padding: 50px">
+    <div style="padding: 50px" id="contact">
       <section class="py-5">
           <div class="container position-relative z-index-1">
               <div class="row">
@@ -322,7 +367,7 @@
                               <i class="fas fa-phone text-sm" aria-hidden="true"></i>
                           </div>
                           <div class="ps-3">
-                              <span class="text-sm">(+91) 982-046-6726 (in case of emergency only.)</span>
+                              <span class="text-sm">+91 982-046-6726 (Aasra)</span>
                           </div>
                       </div>
                       <div class="d-flex p-2">
@@ -330,7 +375,7 @@
                               <i class="fas fa-phone text-sm" aria-hidden="true"></i>
                           </div>
                           <div class="ps-3">
-                              <span class="text-sm">(+91) 915-298-7821 (in case of emergency only.)</span>
+                              <span class="text-sm">+91 915-298-7821 (iCall)</span>
                           </div>
                       </div>
                   </div>
