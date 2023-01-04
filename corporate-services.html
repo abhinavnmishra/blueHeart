@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Workshops</title>
+  <title>Corporate Services</title>
   <link rel="icon" href="assets/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
@@ -15,39 +15,106 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: #5837D0">
-    <div class="container">
-      <a class="navbar-brand w-8" href="#" data-config-id="brand">
-        <span class="text-white text-uppercase">BLUE HEART</span>
-      </a>
+<nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: #5837D0">
+  <div class="container">
+    <a class="navbar-brand w-8" href="index.html" data-config-id="brand" style="margin: -12px;">
+      <img src="assets/images/nav_logo.png" style="height: 75px; width: 270px;  border: 2px solid white;">
+    </a>
 
-      <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon mt-2">
-          <span class="navbar-toggler-bar bar1"></span>
-          <span class="navbar-toggler-bar bar2"></span>
-          <span class="navbar-toggler-bar bar3"></span>
-        </span>
-      </button>
-      <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
-        <ul class="navbar-nav navbar-nav-hover ms-auto">
-          <li class="nav-item mx-2">
-            <a href="index.html" class="nav-link ps-2 cursor-pointer">
-              Home
-            </a>
-          </li>
-          <li class="nav-item mx-2">
-            <a href="aboutMe.html" class="nav-link ps-2 cursor-pointer">About Me</a>
-          </li>
-        </ul>
-      </div>
+    <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon mt-2">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </span>
+    </button>
+
+    <div style="padding-right: 40px" class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
+      <ul class="navbar-nav navbar-nav-hover ms-auto">
+        <li class="nav-item mx-2">
+          <a href="index.html" class="nav-link ps-2 cursor-pointer">
+            Home
+          </a>
+        </li>
+
+        <li class="nav-item dropdown dropdown-hover mx-2">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false" role="button">
+            Services
+            &emsp;&ensp;<i class="collapse-close fas fa-chevron-down text-xs pt-1 position-absolute end-0 me-3" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg" aria-labelledby="dropdownMenuDocs">
+            <div class="d-none d-lg-block">
+              <ul class="list-group">
+
+                <li class="nav-item list-group-item border-0 p-0">
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="therapies.html">
+                    <div class="d-flex">
+                      <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Therapies</h6>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="nav-item list-group-item border-0 p-0">
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="corporate-services.html">
+                    <div class="d-flex">
+                      <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Corporate Services</h6>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="nav-item list-group-item border-0 p-0">
+                  <a class="dropdown-item py-2 ps-3 border-radius-md" href="supportGroups.html">
+                    <div class="d-flex">
+                      <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Support Groups</h6>
+                    </div>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+            <div class="row d-lg-none">
+              <div class="col-md-12 g-0">
+
+                <a class="dropdown-item py-2 ps-3 border-radius-md" href="therapies.html">
+                  <div class="d-flex">
+                    <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Therapies</h6>
+                  </div>
+                </a>
+
+                <a class="dropdown-item py-2 ps-3 border-radius-md" href="corporate-services.html">
+                  <div class="d-flex">
+                    <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Corporate Services</h6>
+                  </div>
+                </a>
+
+                <a class="dropdown-item py-2 ps-3 border-radius-md" href="supportGroups.html">
+                  <div class="d-flex">
+                    <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Support Groups</h6>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item mx-2">
+          <a href="aboutMe.html" class="nav-link ps-2 cursor-pointer">About Me</a>
+        </li>
+
+        <li class="nav-item mx-2">
+          <a href="index.html#contact" class="nav-link ps-2 cursor-pointer">Contact Us</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <header class="mb-0 position-relative" style="padding: 50px">
     <span class="mask opacity-10" style="background-color: #5DA7DB"></span>
     <div class="page-header min-vh-75 position-relative">
-      <div class="position-absolute top-0 end-0 w-40 h-100 d-md-block d-none">
-        <div class="bg-cover position-absolute fixed-top end-0 ms-auto w-100 h-100 z-index-0" style="background-image:url(assets/images/work-1.jpg); background-position: center;"></div>
+      <div class="position-absolute top-0 end-0 w-45 h-100 d-md-block d-none">
+        <div class="bg-cover position-absolute fixed-top end-0 ms-auto w-100 h-100 z-index-0" style="background-image:url(assets/images/workshop.jpg); background-position: center; border: 5px solid white;"></div>
 
       </div>
 
@@ -56,6 +123,12 @@
           <div class="col-md-8 text-md-start me-auto position-relative">
 
             <h1 class="display-1 font-weight-bolder w-md-70 text-white text-capitalize mb-0" style="color: #fff; font-size: 60px">Corporate Services</h1>
+            <br>
+            <h5 align="justify" class="font-weight-bolder text-sm text-white ps-1 w-md-70">
+              Building a career is important. But, there are many challenges that make it hard to focus and develop healthy coping skills. We may have to take care of our families, process difficult emotions, or feel overwhelmed in a new city. We also need to take care of our health, be the best performer, or process grief. All this can take a toll on our psychological health. It can be helpful to have a space where you do not perform and can express yourself freely. While these challenges may be yours to handle, you do not have to do it alone.
+            </h5>
+            <br><br>
+            &emsp; <a href="index.html#contact" class="btn bg-gradient-dark">Contact Us</a>
           </div>
         </div>
       </div>
@@ -71,10 +144,12 @@
   <div style="padding: 50px">
     <section class="py-4">
       <div class="container">
-        <div class="row shadow-lg" style="padding: 20px; font-weight: bold">
+        <div class="row shadow-lg" style="padding: 20px; font-weight: bold;">
 
           <h2 style="text-align: center">Workshops</h2>
-          <h5 style="text-align: center">These services are offered for corporates, organisations, and institutions on the following topics:</h5>
+          <h5 class="font-weight-normal">
+            The workshops and webinars are empirical, reflective, and interactive. We hope to create moments that tickle your brain and pique your curiosity.
+            These services are offered for corporates, organisations, and institutions on the following topics:</h5>
           <br>
           <br>
           <br>
@@ -197,11 +272,12 @@
             <h5 style="">Psychology is a subject that pervades our everyday lifestyle. As an avid mental health advocate, I aim to educate and encourage you to have your own well-informed conversations about mental health.
               If you would like me to write for your page, please get in touch with me:
               <br>
-              <a href="https://drive.google.com/file/d/1k9ql1V_RSqbVZhmoEn1_1GwNW41-8WPD/view">&#8226; Indian Institute of Business Psychology</a>
               <br>
-              <a href="https://therapheal.in/elementor-3860/">&#8226; Festive Blues</a>
+              <a href="https://drive.google.com/file/d/1k9ql1V_RSqbVZhmoEn1_1GwNW41-8WPD/view" target="_blank" style="color: #2152ff;">&#8226; Indian Institute of Business Psychology</a>
               <br>
-              <a href="https://www.instagram.com/p/CkVpbaWuMHt/">&#8226; LGBTQIA+ (un)Learning Series</a>
+              <a href="https://therapheal.in/elementor-3860/" target="_blank" style="color: #2152ff;">&#8226; Men’s Mental Health: Through the Lens of Culture</a>
+              <br>
+              <a href="https://www.instagram.com/p/CkVpbaWuMHt/" target="_blank" style="color: #2152ff;">&#8226; LGBTQIA+ (un)Learning Series</a>
             </h5>
           </div>
         </div>
@@ -218,6 +294,9 @@
           <section class="py-4 position-relative">
             <div id="carousel-testimonials" class="carousel slide carousel-team">
               <div class="carousel-inner">
+
+                <h2 style="text-align: center">Previous And Upcoming Workshops</h2>
+
                 <div class="carousel-item active">
                   <div class="container">
                     <div class="row align-items-center">
@@ -228,24 +307,28 @@
                       </div>
                       <div class="col-md-5 me-lg-auto position-relative">
                         <h3 class="text-dark" spellcheck="false">Mental health webinar on "My Body and I."</h3>
+                        <h6 class="text-dark" spellcheck="false"><a href="https://www.instagram.com/p/CcH5NawpeQX/" target="_blank" style="color: #2152ff;"> Read More </a></h6>
                       </div>
                     </div>
                   </div>
                 </div>
+
                 <div class="carousel-item">
                   <div class="container">
                     <div class="row align-items-center">
                       <div class="col-md-5 p-5 ms-lg-auto">
                         <div class="p-3">
-                          <img class="w-100 border-radius-md shadow" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/ivana.jpg" alt="First slide">
+                          <img class="w-100 border-radius-md shadow" src="assets/images/LSR-College-logo.jpg" style=" border: 10px solid #700303;" alt="First slide">
                         </div>
                       </div>
                       <div class="col-md-5 me-lg-auto">
-                        <h3 class="text-dark">Speaker Session on Psychological First Aid for Victims of Sexual Abuse.</h3>
+                        <h3 class="text-dark">Speaker Session on "Psychological First Aid for Victims of Sexual Abuse".</h3>
+                        <h6 class="text-dark" spellcheck="false"><a href="https://ibtidansslsr.wordpress.com/2022/11/15/speaker-session-on-psychological-first-aid-for-victims-of-sexual-abuse/" target="_blank" style="color: #2152ff;"> Read More </a></h6>
                       </div>
                     </div>
                   </div>
                 </div>
+
               </div>
               <a class="carousel-control-prev text-dark" href="#carousel-testimonials" role="button" data-bs-slide="prev">
                 <i class="fas fa-chevron-left" aria-hidden="true"></i>
