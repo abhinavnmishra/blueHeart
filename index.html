@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: #5837D0">
+    <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: #5837D0; position: fixed; z-index: 10; width: 100%;">
         <div class="container">
             <a class="navbar-brand w-8" href="index.html" data-config-id="brand" style="margin: -12px;">
                 <img src="assets/images/nav_logo.png" style="height: 75px; width: 270px;  border: 2px solid white;">
@@ -31,13 +31,13 @@
             <div style="padding-right: 40px" class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
                 <ul class="navbar-nav navbar-nav-hover ms-auto">
                     <li class="nav-item mx-2">
-                        <a href="index.html" class="nav-link ps-2 cursor-pointer">
+                        <a style="font-size: 16px;" href="index.html" class="font-weight-bolder nav-link ps-2 cursor-pointer">
                             Home
                         </a>
                     </li>
 
                     <li class="nav-item dropdown dropdown-hover mx-2">
-                        <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false" role="button">
+                        <a style="font-size: 16px;" class="font-weight-bolder nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false" role="button">
                             Services
                             &emsp;&ensp;<i class="collapse-close fas fa-chevron-down text-xs pt-1 position-absolute end-0 me-3" aria-hidden="true"></i>
                         </a>
@@ -98,18 +98,40 @@
                     </li>
 
                     <li class="nav-item mx-2">
-                        <a href="aboutMe.html" class="nav-link ps-2 cursor-pointer">About Me</a>
+                        <a style="font-size: 16px;" href="aboutMe.html" class="font-weight-bolder nav-link ps-2 cursor-pointer">About Me</a>
                     </li>
 
                     <li class="nav-item mx-2">
-                        <a href="index.html#contact" class="nav-link ps-2 cursor-pointer">Contact Us</a>
+                        <a style="font-size: 16px;" href="index.html#contact" class="font-weight-bolder nav-link ps-2 cursor-pointer">Contact Us</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <header class="mb-0 position-relative" style="padding: 50px">
+
+    <header class="mb-0 position-relative" style="padding-top: 6%;">
+        <div class="page-header min-vh-75" style="background-image: url(assets/images/1_20230104_215547_0000.png); height: 85%">
+<!--            <span class="mask bg-gradient-dark"></span>-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center my-auto">
+<!--                        <h1 class="text-white display-1 font-weight-bolder fadeIn2 fadeInBottom">Work with the rockets</h1>-->
+<!--                        <p class="lead text-white opacity-8 fadeIn3 fadeInBottom">Wealth creation is an evolutionarily recent positive-sum game. Status is an old zero-sum game. Those attacking wealth creation are often just seeking status.</p>-->
+                        <a style="margin-top: 55%; width: 40%;" href="index.html#contact" class="btn bg-gradient-dark">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="bg-gradient-dark">
+        <div class="row pt-7">
+
+        </div>
+    </div>
+
+    <section class="mb-0 position-relative" style="padding: 50px; padding-top: 9%;">
         <span class="mask opacity-10" style="background-color: #5DA7DB"></span>
         <div class="page-header min-vh-75 position-relative">
             <div class="position-absolute top-0 end-0 w-40 h-100 d-md-block d-none">
@@ -120,16 +142,17 @@
                 <div class="row">
                     <div class="col-md-8 text-md-start me-auto text-center position-relative">
 
-                        <h1 style="font-size: 75px" class="display-1 font-weight-bolder w-md-70 text-white text-capitalize mb-0">Blue Hearts</h1>
+                        <h1 style="font-size: 80px;" class="display-1 font-weight-bolder w-md-70 text-white text-capitalize mb-0">Blue Hearts</h1>
                         <br>
-                        <h2 style="font-size: 60px" class="display-1 font-weight-bolder w-md-70 text-white text-capitalize mb-4 mt-n3">Wellness</h2>
+                        <h2 style="font-size: 65px;" class="display-1 font-weight-bolder w-md-70 text-white text-capitalize mb-4 mt-n3">Wellness</h2>
 <!--                        <h5 class="w-md-70 text-white font-weight-bolder ps-1">About Us</h5>-->
-                        <h5 align="justify" class="font-weight-bolder text-sm text-white ps-1 w-md-70">People who seek therapy often feel blue. We reach out when our emotions become overwhelming. We may feel helpless, confused, and worthless while being stuck in a myriad of emotions. But reaching out or being in this state does not make you weak. It takes a lot of strength to be able to hold space for so many emotions and go through life. You have a strong and brave heart that is feeling blue today. We invite you to sit with us and spend time with every shade of blue that comes up. We invite you on a journey where you get to know your blue heart.</h5>
+                        <p style="font-size: 20px;" align="justify" class="font-weight-bold text-white ps-1 w-md-70" >People seek therapy when they feel blue. We reach out when our emotions become overwhelming. We may feel helpless, confused, and worthless while being stuck in a myriad of emotions. But reaching out or being in this state does not make you weak. It takes a lot of strength to be able to hold space for so many emotions and go through life. You have a strong and brave heart that is feeling blue today. We invite you to sit with us and spend time with every shade of blue that comes up. We invite you on a journey where you get to know your blue heart.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
 
 
     <div style="padding: 50px">
@@ -149,7 +172,7 @@
                         <div class="card card-plain">
                             <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
                                 <a href="therapies.html" class="d-block">
-                                    <img src="assets/images/therapies.jpg" class="img-fluid border-radius-lg card-img-index">
+                                    <img src="assets/images/therapy_page.jpg" class="img-fluid border-radius-lg card-img-index">
                                 </a>
                             </div>
                             <div class="card-body pt-3">
@@ -162,7 +185,7 @@
                         <div class="card card-plain">
                             <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
                                 <a href="corporate-services.html" class="d-block">
-                                    <img src="assets/images/workSho.jpeg" class="img-fluid border-radius-lg card-img-index">
+                                    <img src="assets/images/workshop.jpg" class="img-fluid border-radius-lg card-img-index">
                                 </a>
                             </div>
                             <div class="card-body pt-3">
@@ -175,7 +198,7 @@
                         <div class="card card-plain">
                             <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
                                 <a href="javascript:;" class="d-block">
-                                    <img src="assets/images/supportGrou.jpeg" class="img-fluid border-radius-lg card-img-index">
+                                    <img src="assets/images/support_group.jpg" class="img-fluid border-radius-lg card-img-index">
                                 </a>
                             </div>
                             <div class="card-body pt-3">
@@ -205,9 +228,10 @@
 
                                         <h1 class="display-1 text-darker font-weight-bolder w-md-70 text-capitalize mb-0" style="font-size: 69px">Srinithi Sridhar</h1>
 <!--                                        <h1 class="display-1 text-darker font-weight-bolder w-md-70 text-capitalize mb-0" style="font-size: 60px">Wellness</h1>-->
-                                        <h5 class="w-md-70 text-darker font-weight-bolder ps-1">Counselling Psychologist (She/ Her)</h5>
-                                        <p align="justify" class="text-sm text-darker ps-1 w-md-70">
-                                            I am a trauma-informed and queer-affirmative counselling psychologist and an EFT practitioner. I work with clients between the ages of 18 and 60 and my practice is currently online. My work focuses on co-creating a safe for clients to deepen their relationships with the self and with their families, friends, and colleagues. I also work with clients struggling with depression, anxiety, suicidal ideations, and grief. I use an eclectic approach to therapy. But my roots lie in humanistic-existential approaches as they value authenticity, empathy, and positive regard. These are values that I extend to my practice as well.
+                                        <h3 class="w-md-70 text-darker font-weight-bolder ps-1">Counselling Psychologist<br>(She/ Her)</h3>
+                                        <br>
+                                        <p style="font-size: 18px;" align="justify" class="font-weight-bold text-darker ps-1 w-md-70">
+                                            I am a trauma-informed and queer-affirmative therapist  and an EFT practitioner. I work with clients between the ages of 18 and 60 and my practice is currently online. My work focuses on co-creating a safe space for clients to deepen their relationships with themselves and build healthy boundaries with the people they meet. I also work with clients struggling with depression, anxiety, suicidal ideations, and grief. I use an eclectic approach to therapy. My roots lie in humanistic-existential approaches as they value safety, empathy, and authenticity. These are values that I extend to my practice as well.
                                         </p>
                                     </div>
                                 </div>
@@ -249,9 +273,9 @@
                                       <div class="d-block d-lg-flex">
   <!--                                        <img class="w-50 w-lg-20 my-3" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/illustrations/rocket-white.png" alt="rocket">-->
                                           <div class="accordion-body text-sm opacity-8 my-auto">
-                                            You can contact your therapist through the form below. You will receive a mail with the intake form, payment details, and a link to book your session.
-                                            Take time to read the form thoroughly. Kindly ensure that all your queries are clarified prior to the first session. You can make the payment and book your slot after you fill out the form.
-                                            Kindly note that the booking will be confirmed only after the payment.
+                                              You can book your session by clicking here. Once you fill out the form, we will reach out to you. You will receive a mail with the intake form, payment details, and a link to book your session.
+                                              Take time to read the form thoroughly. Kindly ensure that all your queries are clarified before  the first session. You can make the payment and book your slot after you fill out the form.
+                                              Kindly note that the booking will be confirmed only after the payment.
                                           </div>
                                       </div>
                                   </div>
@@ -268,8 +292,8 @@
                                       <div class="d-block d-lg-flex">
   <!--                                        <img class="w-50 w-lg-20 my-3" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/illustrations/settings.png" alt="rocket">-->
                                           <div class="accordion-body text-sm opacity-8 my-auto">
-                                            Every client has a unique set of experiences and goals that they hope to achieve through therapy. Healing takes place both in the session and outside. It differs based on what we do with the time that we have in between and a readiness to accept change. Therefore, it can be difficult to predict the right number of sessions beforehand.
-                                            However, you can always communicate your concerns with your therapist and work it out together.
+                                              Every client has a unique set of experiences and goals that they hope to achieve through therapy. Healing takes place both in the session and outside. It differs based on what we do with the time we have in between and a readiness to accept change. Therefore, it can be difficult to predict the right number of sessions.
+                                              However, you can always communicate your concerns with your therapist and work them out together.
                                           </div>
                                       </div>
                                   </div>
@@ -321,7 +345,7 @@
   <!--                                        <img class="w-50 w-lg-20 my-3" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/illustrations/folder.png" alt="rocket">-->
                                           <div class="accordion-body text-sm opacity-8 my-auto">
                                             Kindly note this is not an emergency service. I will be available from 9 am to 5 pm on weekdays. You will receive a response within 24 hours except on weekends.
-                                            In case of an emergency, you can contact the helpline numbers provided. 
+                                              In case of an emergency, you can contact the helpline numbers provided below.
                                           </div>
                                       </div>
                                   </div>
@@ -381,7 +405,7 @@
                   </div>
                   <div class="col-lg-6">
                       <div class="card mt-5 mt-lg-0">
-                          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSds91NfOMLgdvquOk5t2ExvOs7FSszRUowTz9JB5Lt9vlDijw/viewform?embedded=true" width="640" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd0UtvOSuoiKT0bCgPSRpum2INNjmiprISZ4WAj9k25tj0LWQ/viewform?embedded=true" width="640" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                       </div>
                   </div>
               </div>
