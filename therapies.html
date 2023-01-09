@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Therapies</title>
-    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="icon" href="assets/images/logo123.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
     <link href="https://demos.creative-tim.com/soft-ui-design-system/assets/css/nucleo-icons.css" rel="stylesheet" />
@@ -14,47 +14,115 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: #5837D0">
-        <div class="container">
-            <a class="navbar-brand w-8" href="#" data-config-id="brand">
-                <span class="text-white text-uppercase" >BLUE HEART</span>
-            </a>
+<nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: #F6EEDE; position: fixed; z-index: 10; width: 100%;">
+    <div class="container">
+        <a class="navbar-brand w-8" href="index.html" data-config-id="brand" style="margin: -20px;">
+            <img src="assets/images/nav_logo.png" style="height: 90px; width: 320px;">
+        </a>
 
-            <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon mt-2">
                     <span class="navbar-toggler-bar bar1"></span>
                     <span class="navbar-toggler-bar bar2"></span>
                     <span class="navbar-toggler-bar bar3"></span>
                 </span>
-            </button>
-            <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
-                <ul class="navbar-nav navbar-nav-hover ms-auto">
-                  <li class="nav-item mx-2">
-                      <a href="index.html" class="nav-link ps-2 cursor-pointer">
-                          Home
-                      </a>
-                  </li>
-                    <li class="nav-item mx-2">
-                        <a href="aboutMe.html" class="nav-link ps-2 cursor-pointer">About Me</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+        </button>
 
-    <header class="mb-0 position-relative" style="padding: 50px">
+        <div style="padding-right: 40px" class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
+            <ul class="navbar-nav navbar-nav-hover ms-auto">
+                <li class="nav-item mx-2">
+                    <a style="font-size: 16px; color: #3b5998;" href="index.html" class="font-weight-bolder nav-link ps-2 cursor-pointer">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                    <a style="font-size: 16px; color: #3b5998;" class="font-weight-bolder nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false" role="button">
+                        Services
+                        &emsp;&ensp;<i class="collapse-close fas fa-chevron-down text-xs pt-1 position-absolute end-0 me-3" aria-hidden="true"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg" aria-labelledby="dropdownMenuDocs">
+                        <div class="d-none d-lg-block">
+                            <ul class="list-group">
+
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="therapies.html">
+                                        <div class="d-flex">
+                                            <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Therapy</h6>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="corporate-services.html">
+                                        <div class="d-flex">
+                                            <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Corporate Services</h6>
+                                        </div>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item list-group-item border-0 p-0">
+                                    <a class="dropdown-item py-2 ps-3 border-radius-md" href="supportGroups.html">
+                                        <div class="d-flex">
+                                            <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Support Groups</h6>
+                                        </div>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="row d-lg-none">
+                            <div class="col-md-12 g-0">
+
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="therapies.html">
+                                    <div class="d-flex">
+                                        <h6 style="color: #3b5998;" class="dropdown-header font-weight-bolder d-flex justify-content-cente align-items-center p-0">Therapy</h6>
+                                    </div>
+                                </a>
+
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="corporate-services.html">
+                                    <div class="d-flex">
+                                        <h6 style="color: #3b5998;" class="dropdown-header font-weight-bolder d-flex justify-content-cente align-items-center p-0">Corporate Services</h6>
+                                    </div>
+                                </a>
+
+                                <a class="dropdown-item py-2 ps-3 border-radius-md" href="supportGroups.html">
+                                    <div class="d-flex">
+                                        <h6 style="color: #3b5998;" class="dropdown-header font-weight-bolder d-flex justify-content-cente align-items-center p-0">Support Groups</h6>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item mx-2">
+                    <a style="font-size: 16px; color: #3b5998;" href="aboutMe.html" class="font-weight-bolder nav-link ps-2 cursor-pointer">About Me</a>
+                </li>
+
+                <li class="nav-item mx-2">
+                    <a style="font-size: 16px; color: #3b5998;" href="index.html#contact" class="font-weight-bolder nav-link ps-2 cursor-pointer">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <header class="mb-0 position-relative" style="padding: 50px; padding-top: 9%;">
         <span class="mask opacity-10" style="background-color: #5DA7DB"></span>
         <div class="page-header min-vh-75 position-relative">
             <div class="position-absolute top-0 end-0 w-40 h-100 d-md-block d-none">
-                <div class="bg-cover position-absolute fixed-top end-0 ms-auto w-100 h-100 z-index-0" style="background-image:url(assets/images/therapy_page.jpg); background-position: center;"></div>
+                <div class="bg-cover position-absolute fixed-top end-0 ms-auto w-100 h-100 z-index-0" style="background-image:url(assets/images/therapy_page.jpg); background-position: center; border: 2px solid white;"></div>
 
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 text-md-start me-auto position-relative">
 
-                        <h1 class="display-1 font-weight-bolder w-md-70 text-white text-capitalize mb-0" style="color: #fff; font-size: 70px">What is Therapy?</h1>
-                        <h5 align="justify" class="text-sm text-white ps-1 w-md-70" style="color: #fff; font-size: large">
+                        <h1 class="display-1 font-weight-bolder w-md-70 text-white text-capitalize mb-0" style="color: #fff; font-size: 70px; font-family: 'Times New Roman';">What is Therapy?</h1>
+                        <br>
+                        <h5 align="justify" class="font-weight-bold text-white ps-1 w-md-70" style="color: #fff; font-size: 17px; font-family: Baskerville;">
                             <br>
                             Each of us has a unique relationship with therapy. Some of us may liken it to a gym, a space where you can go and unwind and check in with yourself once a week. Some of us may look at therapy as a doctor's clinic, a space we can visit when something is not okay with us mentally. Some of us may not want to be in this space but it may be mandatory. And some of us may view therapy as a tree that provides an area of rest and recovery for weary travellers.
                             <br>
@@ -62,8 +130,10 @@
                             Whatever your reason for therapy may be, I would like to extend warmth and welcome you to this space.
                             <br>
                             <br>
-                            Therapy is a space where you can reflect, process, and work through your thoughts, emotions, behavioural patterns, and experiences. Therapy allows you to get to know different parts of who you have been, who you are, and whom you are becoming. It is different from talking to your loved ones, as here you have this full hour to only focus on your story. It gives you the space to feel heard and seen and valued for who you are. You receive care and warmth and commit to your growth and healing at a pace that feels comfortable for you.
-
+                            Therapy is a space where you can reflect, process, and work through your thoughts, emotions, behavioural patterns, and experiences. Therapy allows you to get to know different parts of who you have been, who you are, and who you are becoming. It is different from talking to your loved ones, as here you have this space to solely focus on your story. It gives you the space to feel heard and seen and valued for who you are. You receive care, warmth, and a source of support. You get to commit to your growth and healing at a pace that feels comfortable for you.
+                            <br>
+                            <br>
+                            <a style="font-family: Baskerville" href="index.html#contact" class="btn bg-gradient-dark">Contact Us</a>
                         </h5>
                     </div>
                 </div>
@@ -71,18 +141,55 @@
         </div>
     </header>
 
-<!--    <div class="">-->
-<!--        <div class="row pt-6">-->
 
-<!--        </div>-->
-<!--    </div>-->
+<div style="padding-top: 3%">
+    <section class="py-4">
+        <div class="container">
+            <div class="row shadow-lg" style="padding: 20px; font-weight: bold; font-family: Baskerville;">
+
+                <h3 style=" font-family: 'Times New Roman';" align="center" class="text-darker mx-auto">How to Book a Session:</h3>
+                <div class="p-3 info-horizontal">
+                    <div class="icon icon-shape text-center">
+                        <i class="fas fa-check text-success text-sm" aria-hidden="true"></i>
+                    </div>
+                    <div class="description ps-2">
+                        <h5>Fill the form provided on the home page. <a href="index.html#contact" style="color: #2152ff" target="_blank">Click here</a> to view the form</h5>
+                    </div>
+                </div>
+
+                <div class="p-3 info-horizontal">
+                    <div class="icon icon-shape text-center">
+                        <i class="fas fa-check text-success text-sm" aria-hidden="true"></i>
+                    </div>
+                    <div class="description ps-2">
+                        <h5>You will receive a mail containing the informed consent form, payment details, and the booking link</h5>
+                    </div>
+                </div>
+
+                <div class="p-3 info-horizontal">
+                    <div class="icon icon-shape text-center">
+                        <i class="fas fa-check text-success text-sm" aria-hidden="true"></i>
+                    </div>
+                    <div class="description ps-2">
+                        <h5>You can go through it and book a slot that works for you! </h5>
+                    </div>
+                </div>
+                <br>
+                <div style="opacity: 70%; font-weight: normal;" class="">
+                    <h6>If you have any queries, please reach out to me at: therapywithsrinithi@gmail.com</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
 
     <div style="padding: 50px">
         <section class="py-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 mx-auto text-center">
-                        <h3>Areas of Expertise</h3>
+                        <h3 style=" font-family: 'Times New Roman';">Areas of Expertise</h3>
                     </div>
                 </div>
 
@@ -92,7 +199,7 @@
                         <div class="card shadow-none border bg-gradient-dark h-100 overflow-hidden">
                             <img src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/shapes/pattern-lines.svg" alt="pattern-lines" class="position-absolute">
                             <div class="card-header bg-transparent text-sm-start text-center pt-4 pb-3 px-4">
-                                <h5 class="mb-1 text-white">Self and Identity</h5>
+                                <h5 style="font-family: 'Times New Roman';" class="mb-1 text-white">Self and Identity</h5>
 
                             </div>
                             <hr class="horizontal light my-0">
@@ -168,7 +275,7 @@
                         <div class="card shadow-none border bg-gradient-dark h-100 overflow-hidden">
                             <img src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/shapes/pattern-lines.svg" alt="pattern-lines" class="position-absolute">
                             <div class="card-header bg-transparent text-sm-start text-center pt-4 pb-3 px-4">
-                                <h5 class="mb-1 text-white">Interpersonal Issues</h5>
+                                <h5 style="font-family: 'Times New Roman';" class="mb-1 text-white">Interpersonal Issues</h5>
 
                             </div>
                             <hr class="horizontal light my-0">
@@ -217,7 +324,7 @@
                         <div class="card shadow-none border bg-gradient-dark h-100 overflow-hidden">
                             <img src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/shapes/pattern-lines.svg" alt="pattern-lines" class="position-absolute">
                             <div class="card-header bg-transparent text-sm-start text-center pt-4 pb-3 px-4">
-                                <h5 class="mb-1 text-white">Work-Related Concerns</h5>
+                                <h5 style="font-family: 'Times New Roman';" class="mb-1 text-white">Work-Related Concerns</h5>
 
                             </div>
                             <hr class="horizontal light my-0">
@@ -272,7 +379,7 @@
                         <div class="card shadow-none border bg-gradient-dark h-100 overflow-hidden">
                             <img src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/shapes/pattern-lines.svg" alt="pattern-lines" class="position-absolute">
                             <div class="card-header bg-transparent text-sm-start text-center pt-4 pb-3 px-4">
-                                <h5 class="mb-1 text-white">Clinical Concerns</h5>
+                                <h5 style="font-family: 'Times New Roman';" class="mb-1 text-white">Clinical Concerns</h5>
                             </div>
                             <hr class="horizontal light my-0">
                             <div class="card-body">
@@ -329,7 +436,7 @@
                         <div class="card shadow-none border bg-gradient-dark h-100 overflow-hidden">
                             <img src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/shapes/pattern-lines.svg" alt="pattern-lines" class="position-absolute">
                             <div class="card-header bg-transparent text-sm-start text-center pt-4 pb-3 px-4">
-                                <h5 class="mb-1 text-white">Abuse and Trauma</h5>
+                                <h5 style="font-family: 'Times New Roman';" class="mb-1 text-white">Abuse and Trauma</h5>
                             </div>
                             <hr class="horizontal light my-0">
                             <div class="card-body">
@@ -386,7 +493,7 @@
                         <div class="card shadow-none border bg-gradient-dark h-100 overflow-hidden">
                             <img src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/shapes/pattern-lines.svg" alt="pattern-lines" class="position-absolute">
                             <div class="card-header bg-transparent text-sm-start text-center pt-4 pb-3 px-4">
-                                <h5 class="mb-1 text-white">Issues with Friends and Family</h5>
+                                <h5 style="font-family: 'Times New Roman';" class="mb-1 text-white">Issues with Friends and Family</h5>
                             </div>
                             <hr class="horizontal light my-0">
                             <div class="card-body">
@@ -440,48 +547,6 @@
                     </div>
 
             </div>
-            </div>
-        </section>
-    </div>
-
-
-    <div style="padding: 5px">
-        <section class="py-4">
-            <div class="container">
-                <div class="row shadow-lg" style="padding: 20px; font-weight: bold;">
-
-                    <h3 align="center" class="text-darker mx-auto">How to Book a Session:</h3>
-                    <div class="p-3 info-horizontal">
-                        <div class="icon icon-shape text-center">
-                            <i class="fas fa-check text-success text-sm" aria-hidden="true"></i>
-                        </div>
-                        <div class="description ps-2">
-                            <h5>Fill the form provided on the home page</h5>
-                        </div>
-                    </div>
-
-                    <div class="p-3 info-horizontal">
-                        <div class="icon icon-shape text-center">
-                            <i class="fas fa-check text-success text-sm" aria-hidden="true"></i>
-                        </div>
-                        <div class="description ps-2">
-                            <h5>You will receive a mail containing the informed consent form, payment details, and the booking link</h5>
-                        </div>
-                    </div>
-
-                    <div class="p-3 info-horizontal">
-                        <div class="icon icon-shape text-center">
-                            <i class="fas fa-check text-success text-sm" aria-hidden="true"></i>
-                        </div>
-                        <div class="description ps-2">
-                            <h5>You can go through it and book a slot that works for you! </h5>
-                        </div>
-                    </div>
-                    <br>
-                    <div style="opacity: 70%; font-weight: normal;" class="">
-                        <h6>If you have any queries, please reach out to me at: therapywithsrinithi@gmail.com</h6>
-                    </div>
-                </div>
             </div>
         </section>
     </div>
