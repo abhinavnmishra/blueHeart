@@ -2,6 +2,22 @@
 <!-- this is a temp push -->
 <head>
     <meta charset="utf-8">
+    <style>
+
+        @media (min-width: 601px) {
+            .hideMobile{
+                display: none;
+            }
+            .hideDesktop{}
+        }
+        @media (max-width: 600px) {
+            .hideMobile{}
+            .hideDesktop{
+                display: none;
+            }
+        }
+
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Support Groups</title>
     <link rel="icon" href="assets/images/logo123.png">
@@ -109,18 +125,47 @@
     </div>
 </nav>
 
-    <header class="mb-0 position-relative" style="padding: 50px; padding-top: 9%;">
+<header class="mb-0 position-relative hideDesktop" style="padding: 50px; padding-top: 9%;">
+    <span class="mask opacity-10" style="background-color: #5DA7DB"></span>
+    <div class="page-header min-vh-75 position-relative">
+        <div class="position-absolute top-0 end-0 w-40 h-100 d-md-block d-none">
+            <div class="bg-cover position-absolute fixed-top end-0 ms-auto w-100 h-100 z-index-0" style="background-image:url(assets/images/support_group.jpg); background-position: center; border: 5px solid white;"></div>
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 text-md-start me-auto position-relative">
+
+                    <h1 class="display-1 font-weight-bolder w-md-70 text-white text-capitalize mb-0" style="color: #fff; font-size: 60px; font-family: 'Times New Roman';">Support Groups</h1>
+                    <h5 align="justify" class="font-weight-bold text-white ps-1 w-md-70" style="color: #fff; font-size: 20px; font-family: Baskerville;">
+                        <br>
+                        When we are hurting, we often turn to our families and friends for support. But they may not always say the right words or do the right things. A support group gives you the space to share your experiences with a particular concern with people who share the same concern as you do.
+                        <br>
+                        <br>
+                        Even though your experiences with it may differ, it can still be a space where you feel heard and seen. It may also help you understand your concern better.
+                    </h5>
+                    <br>
+                    <br>
+                    <a style="font-family: Baskerville" href="index.html#contact" class="btn bg-gradient-dark">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <header class="mb-0 position-relative hideMobile" style="padding-top: 20%;">
         <span class="mask opacity-10" style="background-color: #5DA7DB"></span>
         <div class="page-header min-vh-75 position-relative">
-            <div class="position-absolute top-0 end-0 w-40 h-100 d-md-block d-none">
-                <div class="bg-cover position-absolute fixed-top end-0 ms-auto w-100 h-100 z-index-0" style="background-image:url(assets/images/support_group.jpg); background-position: center; border: 5px solid white;"></div>
 
-            </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 text-md-start me-auto position-relative">
 
-                        <h1 class="display-1 font-weight-bolder w-md-70 text-white text-capitalize mb-0" style="color: #fff; font-size: 60px; font-family: 'Times New Roman';">Support Groups</h1>
+                    <div style="height: 500px; width: 100%; top: 0; position: relative;">
+                        <div class="bg-cover position-absolute fixed-top end-0 ms-auto w-100 h-100 z-index-0" style="background-image:url(assets/images/support_group.jpg); background-position: center; border: 5px solid white;"></div>
+                    </div>
+
+                    <div style="height: 100%; width: 100%; top: 0; left: 0; position: relative;">
+                        <h1 class="display-1 font-weight-bolder w-md-70 text-white text-capitalize mb-0" style="color: #fff; font-size: 50px; font-family: 'Times New Roman';">Support Groups</h1>
                         <h5 align="justify" class="font-weight-bold text-white ps-1 w-md-70" style="color: #fff; font-size: 20px; font-family: Baskerville;">
                             <br>
                             When we are hurting, we often turn to our families and friends for support. But they may not always say the right words or do the right things. A support group gives you the space to share your experiences with a particular concern with people who share the same concern as you do.
@@ -131,11 +176,19 @@
                         <br>
                         <br>
                         <a style="font-family: Baskerville" href="index.html#contact" class="btn bg-gradient-dark">Contact Us</a>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
                     </div>
+
                 </div>
             </div>
+
         </div>
     </header>
+
+
     <div class="container">
         <div class="row bg-white shadow mt-n5 border-radius-lg pb-4 p-3 mx-sm-0 mx-1 position-relative z-index-2">
             <div class=" mt-2 mb-lg-0 mb-2">
