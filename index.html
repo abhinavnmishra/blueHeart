@@ -2,6 +2,22 @@
 <!-- this is a temp push -->
 <head>
     <meta charset="utf-8">
+    <style>
+
+        @media (min-width: 601px) {
+            .hideMobile{
+                display: none;
+            }
+            .hideDesktop{}
+        }
+        @media (max-width: 600px) {
+            .hideMobile{}
+            .hideDesktop{
+                display: none;
+            }
+        }
+
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Blue Heart</title>
     <link rel="icon" href="assets/images/logo123.png">
@@ -17,7 +33,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: #F6EEDE; position: fixed; z-index: 10; width: 100%;">
         <div class="container">
             <a class="navbar-brand w-8" href="index.html" data-config-id="brand" style="margin: -20px;">
-                <img src="assets/images/nav_logo.png" style="height: 90px; width: 320px;">
+                <img src="assets/images/nav_logo.png" style="height: 95px; width: 265px;">
             </a>
 
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -134,7 +150,7 @@
         </div>
     </div>
 
-    <section class="mb-0 position-relative" style="padding: 50px; padding-top: 9%;">
+    <section class="mb-0 position-relative hideDesktop" style="padding: 50px; padding-top: 9%;">
         <span class="mask opacity-10" style="background-color: #5DA7DB"></span>
         <div class="page-header min-vh-75 position-relative">
             <div class="position-absolute top-0 end-0 w-40 h-100 d-md-block d-none">
@@ -157,11 +173,39 @@
         </div>
     </section>
 
+    <section class="mb-0 position-relative hideMobile" style="padding-top: 27%;">
+        <span class="mask opacity-10" style="background-color: #5DA7DB"></span>
+        <div class="page-header min-vh-75 position-relative">
 
-    <div style="padding: 50px;">
+            <div class="container">
+                <div class="row">
+
+                    <h1 style="font-size: 65px; font-family: 'Times New Roman';" class="display-1 font-weight-bolder w-md-70 text-white text-capitalize mb-0">Blue Hearts</h1>
+                    <h2 style="font-size: 65px; font-family: 'Times New Roman';" class="display-1 font-weight-bolder w-md-70 text-white text-capitalize mb-4 mt-n3">Wellness</h2>
+
+                    <div style="height: 460px; width: 100%; top: 0; position: relative; margin-bottom: -100px;">
+                        <div class="bg-cover position-absolute fixed-top end-0 ms-auto h-75 z-index-0" style="background-image:url(assets/images/blueHearts.png); background-position: center; border: 5px solid white; background-size: contain"></div>
+                    </div>
+
+                    <div style="height: 100%; width: 100%; top: 0; left: 0; position: relative;">
+                        <p style="font-size: 19px; font-family: Baskerville;" align="justify" class="font-weight-bold text-white ps-1 w-md-70" >People seek therapy when they feel blue. We reach out when our emotions become overwhelming. We may feel helpless, confused, and worthless while being stuck in a myriad of emotions. But reaching out or being in this state does not make you weak. It takes a lot of strength to be able to hold space for so many emotions and go through life. You have a strong and brave heart that is feeling blue today. We invite you to sit with us and spend time with every shade of blue that comes up. We invite you on a journey where you get to know your blue heart.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div style="padding: 0;">
         <section class="py-0">
             <div class="row">
-                <div class="col-6 text-center mx-auto mt-5 mb-4">
+                <div class="col-6 text-center mx-auto mt-5 mb-4 hideDesktop">
+                    <h2 spellcheck="false" style="font-family: 'Times New Roman';">Our Expertise</h2>
+                    <p style="font-family: Baskerville; font-size: 20px;">See what services we have to offer:
+                    </p>
+                </div>
+                <div class="col-10 text-center mx-auto mt-5 mb-4 hideMobile">
                     <h2 spellcheck="false" style="font-family: 'Times New Roman';">Our Expertise</h2>
                     <p style="font-family: Baskerville; font-size: 20px;">See what services we have to offer:
                     </p>
@@ -173,9 +217,14 @@
                 <div class="row">
                     <div class="col-lg-4 mb-lg-0 mb-4">
                         <div class="card card-plain">
-                            <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
+                            <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1 hideDesktop">
                                 <a href="therapies.html" class="d-block">
                                     <img src="assets/images/therapy_page.jpg" class="img-fluid border-radius-lg card-img-index">
+                                </a>
+                            </div>
+                            <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1 hideMobile" style="height: 150px;">
+                                <a href="therapies.html" class="d-block" style="height: 100%;">
+                                    <img src="assets/images/therapy_page.jpg" class="img-fluid border-radius-lg card-img-index" style="height: 100%;">
                                 </a>
                             </div>
                             <div class="card-body pt-3">
@@ -186,9 +235,14 @@
                     </div>
                     <div class="col-lg-4 mb-lg-0 mb-4">
                         <div class="card card-plain">
-                            <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
+                            <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1 hideDesktop">
                                 <a href="corporate-services.html" class="d-block">
                                     <img src="assets/images/workshop.jpg" class="img-fluid border-radius-lg card-img-index">
+                                </a>
+                            </div>
+                            <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1 hideMobile" style="height: 150px;">
+                                <a href="corporate-services.html" class="d-block" style="height: 100%;">
+                                    <img src="assets/images/workshop.jpg" class="img-fluid border-radius-lg card-img-index" style="height: 100%;">
                                 </a>
                             </div>
                             <div class="card-body pt-3">
@@ -199,9 +253,14 @@
                     </div>
                     <div class="col-lg-4 mb-lg-0 mb-4">
                         <div class="card card-plain">
-                            <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1">
-                                <a href="javascript:;" class="d-block">
+                            <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1 hideDesktop">
+                                <a href="supportGroups.html" class="d-block">
                                     <img src="assets/images/support_group.jpg" class="img-fluid border-radius-lg card-img-index">
+                                </a>
+                            </div>
+                            <div class="card-header p-0 mx-3 mt-3 position-relative z-index-1 hideMobile" style="height: 150px;">
+                                <a href="supportGroups.html" class="d-block" style="height: 100%;">
+                                    <img src="assets/images/support_group.jpg" class="img-fluid border-radius-lg card-img-index" style="height: 100%;">
                                 </a>
                             </div>
                             <div class="card-body pt-3">
@@ -216,12 +275,12 @@
     </div>
 
 
-    <div style="padding: 5px">
+    <div class="hideDesktop" style="padding: 5px">
         <section class="py-4">
             <div class="container">
                 <div class="row shadow-lg" style="padding: 20px; font-weight: bold;">
 
-                    <header class="mb-0 position-relative" style="padding: 50px">
+                    <section class="mb-0 position-relative" style="padding: 50px">
 <!--                        <span class="mask opacity-10" style="background-color: #5DA7DB"></span>-->
                         <div class="page-header min-vh-75 position-relative">
 
@@ -244,7 +303,41 @@
 
                             </div>
                         </div>
-                    </header>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="hideMobile" style="padding: 0;">
+        <section class="py-4">
+            <div class="container">
+                <div class="row shadow-lg" style="font-weight: bold;">
+                    <section class="mb-0 position-relative" style="padding-top: 10%;">
+                        <!--        <span class="mask opacity-10" style="background-color: #5DA7DB"></span>-->
+                        <div class="page-header min-vh-75 position-relative">
+
+                            <div class="container">
+                                <div class="row">
+
+                                    <h1 class="display-1 text-darker font-weight-bolder w-md-70 text-capitalize mb-0" style="font-size: 69px; font-family: 'Times New Roman';">Srinithi Sridhar</h1>
+                                    <!--                                        <h1 class="display-1 text-darker font-weight-bolder w-md-70 text-capitalize mb-0" style="font-size: 60px">Wellness</h1>-->
+                                    <h3 style=" font-family: 'Times New Roman';" class="w-md-70 text-darker font-weight-bolder ps-1">Counselling Psychologist<br>(She/ Her)</h3>
+
+                                    <div style="height: 400px; width: 90%; top: 0; position: relative;">
+                                        <div class="bg-cover position-absolute fixed-top end-0 ms-auto w-90 h-100 z-index-0" style="background-image:url(assets/images/IMG_2284.jpg); background-position: center; border: 10px solid #5DA7DB;"></div>
+                                    </div>
+
+                                    <div style="height: 100%; width: 100%; top: 0; left: 0; position: relative;">
+                                        <br>
+                                        <p style="font-size: 18px; font-family: Baskerville;" align="justify" class="font-weight-bold text-darker ps-1 w-md-70">
+                                            I am a trauma-informed and queer-affirmative therapist  and an EFT practitioner. I work with clients between the ages of 18 and 60 and my practice is currently online. My work focuses on co-creating a safe space for clients to deepen their relationships with themselves and build healthy boundaries with the people they meet. I also work with clients struggling with depression, anxiety, suicidal ideations, and grief. I use an eclectic approach to therapy. My roots lie in humanistic-existential approaches as they value safety, empathy, and authenticity. These are values that I extend to my practice as well.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </section>
@@ -367,7 +460,7 @@
 
         </div>
     </div> -->
-    <div style="padding: 50px; font-family: Baskerville;" id="contact">
+    <div style="padding: 0; font-family: Baskerville;" id="contact">
       <section class="py-5">
           <div class="container position-relative z-index-1">
               <div class="row">
@@ -406,10 +499,13 @@
                           </div>
                       </div>
                   </div>
-                  <div class="col-lg-6">
+                  <div class="col-lg-6 hideDesktop">
                       <div class="card mt-5 mt-lg-0">
                           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd0UtvOSuoiKT0bCgPSRpum2INNjmiprISZ4WAj9k25tj0LWQ/viewform?embedded=true" width="640" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                       </div>
+                  </div>
+                  <div class="hideMobile card mt-5 mt-lg-0">
+                      <iframe class="hideMobile" src="https://docs.google.com/forms/d/e/1FAIpQLSd0UtvOSuoiKT0bCgPSRpum2INNjmiprISZ4WAj9k25tj0LWQ/viewform?embedded=true" width="350" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                   </div>
               </div>
           </div>

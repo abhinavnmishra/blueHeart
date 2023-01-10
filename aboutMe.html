@@ -6,6 +6,22 @@
     <title>About me</title>
     <link rel="icon" href="assets/images/logo123.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <style>
+
+        @media (min-width: 601px) {
+            .hideMobile{
+                display: none;
+            }
+            .hideDesktop{}
+        }
+        @media (max-width: 600px) {
+            .hideMobile{}
+            .hideDesktop{
+                display: none;
+            }
+        }
+
+    </style>
     <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
     <link href="https://demos.creative-tim.com/soft-ui-design-system/assets/css/nucleo-icons.css" rel="stylesheet" />
     <link href="https://demos.creative-tim.com/soft-ui-design-system/assets/css/nucleo-svg.css" rel="stylesheet" />
@@ -17,7 +33,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: #F6EEDE; position: fixed; z-index: 10; width: 100%;">
     <div class="container">
         <a class="navbar-brand w-8" href="index.html" data-config-id="brand" style="margin: -20px;">
-            <img src="assets/images/nav_logo.png" style="height: 90px; width: 320px;">
+            <img src="assets/images/nav_logo.png" style="height: 95px; width: 265px;">
         </a>
 
         <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -109,7 +125,7 @@
     </div>
 </nav>
 
-    <header class="mb-0 position-relative" style="padding: 50px; padding-top: 9%;">
+    <header class="mb-0 position-relative hideDesktop" style="padding: 50px; padding-top: 9%;">
         <span class="mask opacity-10" style="background-color: #5DA7DB"></span>
         <div class="page-header min-vh-75 position-relative">
             <div class="position-absolute top-0 end-0 w-40 h-100 d-md-block d-none">
@@ -161,13 +177,66 @@
         </div>
     </header>
 
-    <div class="">
+<header class="mb-0 position-relative hideMobile" style="padding-top: 27%;">
+    <span class="mask opacity-10" style="background-color: #5DA7DB"></span>
+    <div class="page-header min-vh-75 position-relative">
+
+        <div class="container">
+            <div class="row">
+
+                <div style="height: 500px; width: 100%; top: 0; position: relative;">
+                    <div class="bg-cover position-absolute fixed-top end-0 ms-auto w-100 h-100 z-index-0" style="background-image:url(assets/images/IMG_2320.jpg); background-position: center; border: 5px solid white;"></div>
+                </div>
+
+                <div style="height: 100%; width: 100%; top: 0; left: 0; position: relative;">
+                    <br>
+                    <h5 align="justify" class="text-white ps-1 w-md-70 font-weight-bold" style="color: #fff; font-size: 18px; font-family: Baskerville;">
+                        Hello,
+                        <br>
+                        <br>
+                        My name is Srinithi Sridhar (she/her).
+                        <br>
+                        <br>
+                        I am a trauma-informed queer affirmative therapist and an EFT practitioner. I hold an MSc in Counselling Psychology and have been practising psychology for 3 years.
+                        <br>
+                        <br>
+                        I understand that life can be hard and that it tends to become  overwhelming. It can be a challenge to cope with everything by yourself.
+                        <br>
+                        <br>
+                        The good news is that you don't have to!
+                        <br>
+                        <br>
+                        We learn and hold on to many such beliefs that make it hard for us to reach out. But as people, we crave to be seen, heard, and understood.
+                        <br>
+                        <br>
+                        You are allowed to reach out. As your therapist, it would be my honour to walk with you on this journey.
+                        <br>
+                        <br>
+                        I believe that patience and authentic companionship can do wonders. This means that together we will address the wounds and beliefs that can be hard and that we will go on this journey at a pace that feels comfortable for you.
+                        <br>
+                        <br>
+                        As a therapist, I believe in co-creating safe spaces with my clients where they can express themselves and solely focus on their growth. I also enjoy reading and writing about psychological concepts and keeping myself updated. I invest in regular supervision, therapy, workshops, and psychologist meetings.
+                        <br>
+                        <br>
+                        When I remove my therapist coat, you can find me curled on a couch scrolling on my phone, reading, or indulging in art. I also love to dance, sing, act, and visit cafes.
+                        <br>
+                        <br>
+                        <a href="index.html#contact" class="btn bg-gradient-dark">Contact Us</a>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<div class="">
         <div class="row pt-6">
 
         </div>
     </div>
 
-    <div style="padding: 5px">
+    <div class="hideDesktop" style="padding: 5px">
         <section class="py-4">
             <div class="container">
                 <div class="row shadow-lg" style="padding: 20px; font-weight: bold;">
@@ -240,6 +309,80 @@
             </div>
         </section>
     </div>
+
+<div class="hideMobile" style="padding: 5px">
+    <section class="py-4">
+        <div class="container">
+            <div class="row shadow-lg" style="font-weight: bold;">
+
+                <div class="row mb-5">
+                    <div class="col-md-11 mx-auto">
+                        <div class="accordion p-3" id="accordionPricing1">
+                            <div class="accordion-item mb-3">
+                                <h3 style=" font-family: 'Times New Roman';" align="center" class="text-darker mx-auto">Origin Story</h3>
+                                <h6 class="accordion-header" id="headingOne1">
+                                    <button class="accordion-button font-weight-bold text-start collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1" onclick="hide1()">
+                                        <!--                                                <h3 class="text-darker mx-auto">&emsp;&emsp;&emsp;&emsp;Origin Story</h3>-->
+                                        <i class="collapse-close fas fa-chevron-down text-xs pt-1 position-absolute end-0 me-3" aria-hidden="true"></i>
+                                        <i class="collapse-open fas fa-chevron-down text-xs pt-1 position-absolute end-0 me-3" aria-hidden="true"></i>
+                                    </button>
+                                </h6>
+
+                                <div class="show" style="color: #344767; font-family: Baskerville; font-size: 16.5px;">
+                                    <div class="d-block d-lg-flex">
+                                        <div align="justify" class="accordion-body my-auto font-weight-bold">
+                                            There are a lot of unwritten rules that we learn throughout our lives. This depends on our genders, caste, socioeconomic status, neurodivergence, and many other systems that we belong to. They dictate how we dress, behave, speak, love, and live. I know this because there were many such rules that society expected me to adhere to even before I was born.
+                                            <span style="color: black" id="hide1"><br>...</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="collapseOne1" class="accordion-collapse collapse" aria-labelledby="headingOne1" data-bs-parent="#accordionPricing1" style="color: #344767; font-family: Baskerville; font-size: 16.5px;">
+                                    <div class="d-block d-lg-flex">
+                                        <div align="justify" class="accordion-body my-auto font-weight-bold">
+                                            As a firstborn girl child in a patriarchal system, I learnt to be the quintessential “flowery good girl" who always had to wear a mask. I was not taught to fight my bullies, outperform the boys in my class, or be ambitious. Even when I tried to learn on my own, I felt unsupported and alone. The world seemed to keep telling me that I would be valued only when I adhered to the unwritten rules. It always made me feel like a misfit, like a character that I had to be.
+                                            <br>
+                                            <br>
+                                            And I could not mess it up.
+                                            <br>
+                                            <br>
+                                            I did not try to disturb the order of the patriarchal systems even though it was not in my favour.
+                                            <br>
+                                            <br>
+                                            This part of me was scared.
+                                            <br>
+                                            <br>
+                                            However, there was another part that dreamt of a freer life. One where I had the courage to speak up and be who I wanted to be.
+                                            <br>
+                                            <br>
+                                            It can be hard to pinpoint where these expectations came from. It may have come from my family or from my understanding of society. It may have also come from the systems I belong to, or it could be a combination of these.
+                                            <br>
+                                            <br>
+                                            Learning psychology and being a therapist gave me the  courage to change. It gave me the space to recentre myself and identify what was important for me. I learnt to let go of shame and extend kindness to myself. I understood that only I could give myself permission to use my voice or to stay quiet.
+                                            <br>
+                                            <br>
+                                            Psychology let me expand my worldview and encouraged me to value my voice in this world.
+                                            <br>
+                                            <br>
+                                            I have been studying psychology for almost a decade now, and there is definitely a shift in how I view life. It has become more holistic and empathic. I encourage my clients to address the relationship they have with themselves and with the people they meet. In therapy, we address challenges posed by the systems we belong to and the ones we don't. I believe in co-creating a space with you where you feel safe and can express the parts of you that feel unseen and heard.
+                                            <br>
+                                            <br>
+                                            The work I do focuses on safety, empathy, and authenticity. A safe space shifts the focus from protection to growth. Empathy fuels the creation of this space by extending genuine compassion to all parts of who you are. Authenticity gives us the space to extend empathy without shying away.
+                                            <br>
+                                            <br>
+                                            My practice is relational, eclectic, and trauma-informed. I believe that healing happens best when we can co-create a space where we define and experience this journey together.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>
 
     <div style="padding: 50px">
       <section class="py-4">
@@ -545,6 +688,15 @@
     <script>
         function hide() {
             var x = document.getElementById("hide");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+        function hide1() {
+            var x = document.getElementById("hide1");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
