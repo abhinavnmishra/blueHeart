@@ -2,6 +2,22 @@
 <!-- this is a temp push -->
 <head>
     <meta charset="utf-8">
+    <style>
+
+        @media (min-width: 601px) {
+            .hideMobile{
+                display: none;
+            }
+            .hideDesktop{}
+        }
+        @media (max-width: 600px) {
+            .hideMobile{}
+            .hideDesktop{
+                display: none;
+            }
+        }
+
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Therapies</title>
     <link rel="icon" href="assets/images/logo123.png">
@@ -17,7 +33,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark py-3" style="background-color: #F6EEDE; position: fixed; z-index: 10; width: 100%;">
     <div class="container">
         <a class="navbar-brand w-8" href="index.html" data-config-id="brand" style="margin: -20px;">
-            <img src="assets/images/nav_logo.png" style="height: 90px; width: 320px;">
+            <img src="assets/images/nav_logo.png" style="height: 95px; width: 265px;">
         </a>
 
         <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
@@ -109,7 +125,7 @@
     </div>
 </nav>
 
-    <header class="mb-0 position-relative" style="padding: 50px; padding-top: 9%;">
+    <header class="mb-0 position-relative hideDesktop" style="padding: 50px; padding-top: 9%;">
         <span class="mask opacity-10" style="background-color: #5DA7DB"></span>
         <div class="page-header min-vh-75 position-relative">
             <div class="position-absolute top-0 end-0 w-40 h-100 d-md-block d-none">
@@ -140,6 +156,40 @@
             </div>
         </div>
     </header>
+
+<header class="mb-0 position-relative hideMobile" style="padding-top: 27%;">
+    <span class="mask opacity-10" style="background-color: #5DA7DB"></span>
+    <div class="page-header min-vh-75 position-relative">
+
+        <div class="container">
+            <div class="row">
+
+                <h1 class="display-1 font-weight-bolder w-md-70 text-white text-capitalize mb-0" style="color: #fff; font-size: 70px; font-family: 'Times New Roman';">What is Therapy?</h1>
+
+                <div style="height: 500px; width: 100%; top: 0; position: relative;">
+                    <div class="bg-cover position-absolute fixed-top end-0 ms-auto w-100 h-100 z-index-0" style="background-image:url(assets/images/therapy_page.jpg); background-position: center; border: 2px solid white;"></div>
+                </div>
+
+                <div style="height: 100%; width: 100%; top: 0; left: 0; position: relative;">
+                    <br>
+                    <h5 align="justify" class="font-weight-bold text-white ps-1 w-md-70" style="color: #fff; font-size: 18px; font-family: Baskerville;">
+                        <br>
+                        Each of us has a unique relationship with therapy. Some of us may liken it to a gym, a space where you can go and unwind and check in with yourself once a week. Some of us may look at therapy as a doctor's clinic, a space we can visit when something is not okay with us mentally. Some of us may not want to be in this space but it may be mandatory. And some of us may view therapy as a tree that provides an area of rest and recovery for weary travellers.
+                        <br>
+                        <br>
+                        Whatever your reason for therapy may be, I would like to extend warmth and welcome you to this space.
+                        <br>
+                        <br>
+                        Therapy is a space where you can reflect, process, and work through your thoughts, emotions, behavioural patterns, and experiences. Therapy allows you to get to know different parts of who you have been, who you are, and who you are becoming. It is different from talking to your loved ones, as here you have this space to solely focus on your story. It gives you the space to feel heard and seen and valued for who you are. You receive care, warmth, and a source of support. You get to commit to your growth and healing at a pace that feels comfortable for you.
+                        <br>
+                        <br>
+                        <a style="font-family: Baskerville" href="index.html#contact" class="btn bg-gradient-dark">Contact Us</a>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
 
 <div style="padding-top: 3%">
